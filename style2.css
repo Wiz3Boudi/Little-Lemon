@@ -141,7 +141,7 @@ main footer article .social-media-links {
       text-align: center;
       gap: 10px;
 }
-a{
+main footer article a{
       color: white;
       text-decoration:none;
       font-size: 1rem;
@@ -150,4 +150,5 @@ a{
 a:hover{
       color: #F4CE14;
       text-decoration:line-through;
+
 }
