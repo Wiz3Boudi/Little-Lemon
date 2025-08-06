@@ -151,5 +151,6 @@ main footer article a{
 }
 a:hover{
       color: black;
-      text-decoration:line-through;
+      text-decoration:underline;
 }
+
