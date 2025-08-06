@@ -5,7 +5,8 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Little Lemon</title>
-      <link rel="icon" href="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/favicon-32x32.png?raw=true" type="image/png">
+      <link rel="icon" href="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/favicon-32x32.png?raw=true"
+            type="image/png">
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="style2.css">
@@ -13,10 +14,10 @@
 
 <body>
       <nav>
-            <div class="mobile-menu">
-                  <div class="mobile"></div>
-                  <div class="mobile"></div>
-                  <div class="mobile"></div>
+            <div id="mobile-menu" class="mobile-menu">
+                  <div id="mobile" class="mobile"></div>
+                  <div id="mobile" class="mobile"></div>
+                  <div id="mobile" class="mobile"></div>
             </div>
             <div class="img">
                   <img class="logo" src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/logo.jpg?raw=true" alt="">
@@ -27,11 +28,22 @@
       </nav>
       <main>
             <div class="first-part">
+                  <div id="mobile-nav-bar" class="mobile-nav-bar">
+                        <ul>
+                              <li><a id="nav-links" href="#">Home</a></li>
+                              <li><a id="nav-links" href="#about">About</a></li>
+                              <li><a id="nav-links" href="#">Menu</a></li>
+                              <li><a id="nav-links" href="#Reservation">Reservation</a></li>
+                              <li><a id="nav-links" href="#ordrOnline">Order-online</a></li>
+                              <li><a id="nav-links" href="#Gourmet">Gourmet </a></li>
+                              <li><a id="nav-links" href="#">Login</a></li>
+                        </ul>
+                  </div>
                   <div class="heading">
                         <h1>Little Lemon</h1>
                         <h2>Cairo</h2>
                   </div>
-                  <div class="description">
+                  <div id="Reservation" class="description">
                         <p>
                               We are a family owned Mediterranean restaurant, focused on traditional recipes served with
                               a modern twist.
@@ -42,7 +54,7 @@
                         <button>Reserve a table</button>
                   </div>
             </div>
-            <div class="part-tow-Delivery">
+            <div id="ordrOnline" class="part-tow-Delivery">
                   <div class="h-three">
                         <h3>ORDER FOR DELIVERY!</h3>
                   </div>
@@ -58,39 +70,44 @@
                   <div class="cards">
                         <div id="card-container" class="card">
                               <h5> Bruschetta </h5>
-                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/card-2.jpg?raw=true" alt="" width="150px" height="150px">
+                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/card-2.jpg?raw=true" alt=""
+                                    width="150px" height="150px">
                               <p>Our Bruschetta is made from grilled bread that has been smeared with garl... </p>
                               <p><strong>$10.99</strong></p>
                               <a href="#">order for delivery</a>
                         </div>
                         <div id="card-container" class="card">
                               <h5>Grilled Fish</h5>
-                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/card-3.jpg?raw=true" alt="" width="150px" height="150px">
+                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/card-3.jpg?raw=true" alt=""
+                                    width="150px" height="150px">
                               <p> Lorem ipsum dolor sit amet, consectetur...</p>
                               <p><strong>$20.88</strong></p>
                               <a href="#">order for delivery</a>
                         </div>
                         <div id="card-container" class="card">
                               <h5>Greek Salad </h5>
-                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/card-one.jpg?raw=true" alt="" width="150px" height="150px">
+                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/card-one.jpg?raw=true"
+                                    alt="" width="150px" height="150px">
                               <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago...</p>
                               <p><strong>$2.99</strong></p>
                               <a href="#">order for delivery</a>
                         </div>
                         <div id="card-container" class="card">
                               <h5>Pasta</h5>
-                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/pasta.jpg?raw=true" alt="" width="150px" height="150px">
+                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/pasta.jpg?raw=true" alt=""
+                                    width="150px" height="150px">
                               <p>Pasta al Limone is a creamy, tangy Italian pasta dish made with fresh lemon...</p>
                               <p><strong>$9.99</strong></p>
                               <a href="#">order for delivery</a>
                         </div>
                         <div id="card-container" class="card">
                               <h5>Dessert</h5>
-                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/Dessert.jpeg?raw=true" alt="" width="150px" height="150px">
+                              <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/Dessert.jpeg?raw=true"
+                                    alt="" width="150px" height="150px">
                               <p>Dessert al Limone is a sweety, an egyptions favorite dessert and lemon juice for free
                                     ...</p>
                               <p><strong>$0.0 free </strong></p>
-                              <a href="#">order for delivery</a>
+                              <a id="Gourmet" href="#">order for delivery</a>
                         </div>
                   </div>
             </section>
@@ -124,6 +141,7 @@
                         </div>
                   </div>
             </article>
+            <div id="about"></div>
             <!-- about little lemon -->
             <footer>
                   <section>
@@ -140,8 +158,10 @@
                                           our restaurant is in st.34 downtown</p>
                               </div>
                               <div class="about-img">
-                                    <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/PIC-description-1.jpg?raw=true" alt="">
-                                    <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/PIC-description-2-pesson.jpg?raw=true" alt="">
+                                    <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/PIC-description-1.jpg?raw=true"
+                                          alt="">
+                                    <img src="https://github.com/Wiz3Boudi/Little-Lemon/blob/main/PIC-description-2-pesson.jpg?raw=true"
+                                          alt="">
                               </div>
                         </div>
                   </section>
@@ -172,8 +192,9 @@
                               <a href="#"> insatgram</a>
                               <a href="#">whatsapp</a>
                               <a href="#">email</a>
-                              <a traget='blank' href="https://github.com/Wiz3Boudi/Little-Lemon">GitHub</a>
-                              <a traget='blank' href="https://www.linkedin.com/in/abdalah-abdelmeged-73b946322/"> linkedin<a/>
+                              <a traget='_blank' href="https://github.com/Wiz3Boudi/Little-Lemon">GitHub</a>
+                              <a target="_blank"
+                                    href="https://www.linkedin.com/in/abdalah-abdelmeged-73b946322/">linkedin</a>
                         </div>
                   </article>
             </footer>
@@ -183,22 +204,4 @@
       <script src="script.js"></script>
 </body>
 
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
