@@ -21,8 +21,19 @@ nav {
       align-items: center;
 }
 
-.mobile-menu {
+nav .mobile-menu {
       cursor: pointer;
+      /* display: none; */
+}
+nav .mobile-menu.active .mobile:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+}
+nav .mobile-menu.active .mobile:nth-child(2){
+      opacity: 0;
+}
+
+nav .mobile-menu.active .mobile:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
 }
 
 .mobile {
@@ -55,6 +66,33 @@ main {
       padding-left: 5px;
       padding-right: 5px;
       gap: 50px;
+}
+
+main .first-part .mobile-nav-bar {
+      background-color: white;
+      padding: 25px 20px;
+      display: none;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+}
+main .first-part .mobile-nav-bar.active{
+      display: block;
+}
+
+main .first-part .mobile-nav-bar ul {
+      list-style: none;
+}
+
+main .first-part .mobile-nav-bar ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+}
+
+main .first-part .mobile-nav-bar ul li a:hover {
+      color: #F4CE14;
+      text-decoration:underline;
 }
 
 main .first-part {
@@ -153,13 +191,14 @@ main section {
       padding-top: 30px;
 }
 
-main section .cards{
+main section .cards {
       display: flex;
       flex-direction: column;
       justify-self: center;
       max-width: 250px;
       row-gap: 70px;
 }
+
 main section .cards .card {
       display: flex;
       flex-direction: column;
@@ -171,10 +210,25 @@ main section .cards .card {
       transition: transform 0.3s, box-shadow 0.3s;
       cursor: pointer;
       text-align: center;
+      z-index: -100px;
 }
 
-main section .cards .card:hover {
-      transform: translateY(-8px);
+main section .cards .card p:first-of-type {
+      text-align: start;
+      padding: 10px;
+      font-size: 1.2rem;
+}
+
+main section .cards .card h5 {
+      padding: 10px;
+}
+
+main section .cards .card a {
+      font-size: 1rem;
+}
+
+main section .cards .card:hover{
+      transform: translateY(8px);
       box-shadow: 1px 2px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -182,6 +236,8 @@ main section .cards .card img {
       width: 100%;
       border-radius: 5px;
 }
-strong{
-      color:red;
+
+strong {
+      color: red;
+      font-size: 1rem;
 }
