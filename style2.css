@@ -95,62 +95,60 @@ main footer section .about-little-lemon .dis p {
       font-size: 1.1rem;
 }
 
-main footer article {
-      background-color: darkslategray;
-      padding-top: 80px;
-      padding-bottom: 20px;
+main footer article .last-part a {
+      font-size: 1rem;
+}
+main footer article .last-part a:hover{
+      text-decoration: none;
+      transition: transform 1s ease;
+      transform: rotatey(45deg);
+}
+
+main footer article .last-part {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 15px;
-      row-gap: 30px;
-
-}
-main footer article p{
-      color: #F4CE14;
-      font-size: 1.1rem;
-}
-
-main footer article .logo-agin img {
-      max-width: 150px;
-      background-color: white;
-      border: 1px solid white;
-      border-width: 20px;
-      border-radius: 50%;
-      display: flex;
-      flex-direction: column;
       justify-self: center;
-      gap: 10px;
-
+      justify-content: center;
+      align-items: center;
+      text-align: start;
+      row-gap: 20px;
+      background-color: aliceblue;
+      padding: 50px 5px;
+      width: 100%;
 }
 
-main footer article .contact-us {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      padding: 0 30px;
+main footer article .last-part .logo-agin {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 5px;
+      justify-items: center;
+      cursor: pointer;
 }
 
-main footer article .dormant-navigation {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      padding: 0 30px;
+main footer article .last-part .logo-agin h6 {
+      color: #F4CE14;
 }
 
-main footer article .social-media-links {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      padding: 0 30px;
-}
-main footer article a{
-      color: white;
-      text-decoration:none;
-      font-size: 1rem;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-}
-a:hover{
-      color: black;
-      text-decoration:underline;
+main footer article .last-part .contact-us {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 5px;
+      justify-items: center;
+      color: #F4CE14;
 }
 
+main footer article .last-part .dormant-navigation {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 5px;
+      justify-items: center;
+      color: #F4CE14;
+}
+
+main footer article .last-part .social-media-links {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 5px;
+      justify-items: center;
+      color: #F4CE14;
+}
