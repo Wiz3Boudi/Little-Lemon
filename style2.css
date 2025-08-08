@@ -76,7 +76,7 @@ main footer section .about-little-lemon .about-img {
 }
 
 main footer section .about-little-lemon .heading h6 {
-      color: #F4CE14;
+      color: black;
 }
 
 main footer section .about-little-lemon .heading {
@@ -96,7 +96,7 @@ main footer section .about-little-lemon .dis p {
 }
 
 main footer article .last-part a {
-      font-size: 1rem;
+      font-size: 2rem;
 }
 main footer article .last-part a:hover{
       text-decoration: none;
@@ -126,7 +126,7 @@ main footer article .last-part .logo-agin {
 }
 
 main footer article .last-part .logo-agin h6 {
-      color: #F4CE14;
+      color: black;
 }
 
 main footer article .last-part .contact-us {
@@ -134,7 +134,7 @@ main footer article .last-part .contact-us {
       grid-template-columns: 1fr;
       gap: 5px;
       justify-items: center;
-      color: #F4CE14;
+      color: black;
 }
 
 main footer article .last-part .dormant-navigation {
@@ -142,7 +142,7 @@ main footer article .last-part .dormant-navigation {
       grid-template-columns: 1fr;
       gap: 5px;
       justify-items: center;
-      color: #F4CE14;
+      color: black;
 }
 
 main footer article .last-part .social-media-links {
@@ -152,3 +152,4 @@ main footer article .last-part .social-media-links {
       justify-items: center;
       color: #F4CE14;
 }
+
