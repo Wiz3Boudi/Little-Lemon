@@ -96,12 +96,13 @@ main footer section .about-little-lemon .dis p {
 }
 
 main footer article .last-part a {
-      font-size: 2rem;
+      font-size: 1.2rem;
 }
 main footer article .last-part a:hover{
       text-decoration: none;
       transition: transform 1s ease;
       transform: rotatey(45deg);
+      Color: #F4CE14;
 }
 
 main footer article .last-part {
@@ -150,6 +151,7 @@ main footer article .last-part .social-media-links {
       grid-template-columns: 1fr;
       gap: 5px;
       justify-items: center;
-      color: #F4CE14;
+      color:black;
 }
+
 
