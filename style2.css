@@ -92,11 +92,11 @@ main footer section .about-little-lemon .dis {
 }
 
 main footer section .about-little-lemon .dis p {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
 }
 
 main footer article .last-part a {
-      font-size: 1.2rem;
+      font-size: 1rem;
 }
 main footer article .last-part a:hover{
       text-decoration: none;
@@ -153,6 +153,7 @@ main footer article .last-part .social-media-links {
       justify-items: center;
       color:black;
 }
+
 
 
 
