@@ -57,7 +57,7 @@ main footer section .about-little-lemon {
 }
 
 main footer section .about-little-lemon p {
-      font-size: 2rem;
+      font-size: 1.1rem;
       display: flex;
 }
 
@@ -153,6 +153,7 @@ main footer article .last-part .social-media-links {
       justify-items: center;
       color:black;
 }
+
 
 
 
