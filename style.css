@@ -75,6 +75,7 @@ main .first-part .mobile-nav-bar {
       position: fixed;
       width: 100%;
       z-index: 1000;
+      Transform: translatey(0);
 }
 main .first-part .mobile-nav-bar.active{
       display: block;
@@ -244,6 +245,7 @@ strong {
       color: red;
       font-size: 1rem;
 }
+
 
 
 
