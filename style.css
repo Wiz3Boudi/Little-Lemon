@@ -23,7 +23,7 @@ nav {
 
 nav .mobile-menu {
       cursor: pointer;
-      /* display: none; */
+      
 }
 nav .mobile-menu.active .mobile:nth-child(1){
       transform: translateY(8px) rotate(45deg);
@@ -78,6 +78,9 @@ main .first-part .mobile-nav-bar {
 }
 main .first-part .mobile-nav-bar.active{
       display: block;
+      Transform: translateX(100%)
+      transition: Transform 1s ease;
+      
 }
 
 main .first-part .mobile-nav-bar ul {
@@ -241,3 +244,4 @@ strong {
       color: red;
       font-size: 1rem;
 }
+
